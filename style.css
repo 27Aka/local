@@ -1,0 +1,86 @@
+/* Custom styling for form and display */
+body {
+    background-color: #f8f9fa;
+    color: #333;
+}
+  
+.card {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+/* Custom CSS for form styling */
+body {
+    background-color: #f5f5f5; /* Set background color */
+    font-family: Arial, sans-serif; /* Set font family */
+    color: #333; /* Set text color */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.container {
+    max-width: 1000px;
+     /* Set maximum width for form container */
+    margin: auto; /* Center align the form container */
+    padding: 20px; /* Add padding to the form container */
+    background-color: #fff; /* Set background color for form container */
+    border-radius: 10px; /* Add border radius to form container */
+    box-shadow: 0 0 50px rgba(12, 6, 18, 0.6); /* Add box shadow to form container */
+}
+
+h1 {
+    text-align: center; /* Center align heading */
+    color: #333; /* Set heading color */
+}
+
+.form-label {
+    font-weight: bold; /* Set font weight for form labels */
+}
+
+.btn-primary {
+    background: linear-gradient(to right, #5f41c3, #bf5cc1);
+    width: 100%; /* Set button width to fill container */
+}
+
+.btn-primary:hover {
+    background: linear-gradient(to right, #2c1184, #5e0b60); /* Change background color on hover */
+    border-color: #007bff; /* Change border color on hover */
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+/* Table styling */
+.table {
+    border: 1px solid #104274; /* Add border to the table */
+    width: 100%; /* Make table fill container width */
+    border-collapse: collapse; /* Collapse borders */
+    font-size: 18px; /* Increase font size */
+}
+
+/* Table header styling */
+.table thead th {
+    border: 1px solid #2f7cc9; /* Add border to table headers */
+    background-color: #80bbf5; /* Background color for table headers */
+    padding: 15px; /* Add padding to table headers */
+    text-align: center; /* Center align text in table headers */
+    color: #333; /* Text color */
+}
+
+/* Table row styling */
+.table tbody td {
+    border: 1px solid #7792ad; /* Add border to table cells */
+    padding: 15px; /* Add padding to table cells */
+    text-align: center; /* Center align text in table cells */
+    color: #555; /* Text color */
+}
+
+/* Alternating row colors */
+.table tbody tr:nth-child(even) {
+    background-color: #c4d6f5; /* Light gray background for even rows */
+}
